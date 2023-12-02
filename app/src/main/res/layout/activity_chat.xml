@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
         <EditText
-            android:id="@+id/etMessage"
+            android:id="@+id/etMsg"
             android:hint="@string/write_message_here"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
