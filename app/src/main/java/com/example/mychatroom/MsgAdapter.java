@@ -49,11 +49,11 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.MyViewHolder>{
         MsgModel msgModel = msgModelList.get(position);
         holder.msg.setText(msgModel.getMsg());
         if (msgModel.getSenderId().equals(FirebaseAuth.getInstance().getUid())){
-            holder.main.setBackgroundColor(context.getResources().getColor(R.color.black));
-            holder.msg.setTextColor(context.getResources().getColor(R.color.white));
+            holder.main.setBackgroundColor(context.getColor(R.color.green));
+            holder.msg.setTextColor(context.getColor(R.color.black));
         } else {
-            holder.main.setBackgroundColor(context.getResources().getColor(R.color.white));
-            holder.msg.setTextColor(context.getResources().getColor(R.color.black));
+            holder.main.setBackgroundColor(context.getColor(R.color.dark_gray));
+            holder.msg.setTextColor(context.getColor(R.color.white));
         }
     }
 
