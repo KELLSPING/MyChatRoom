@@ -11,5 +11,6 @@
     <string name="logout">Logout</string>
     <string name="user_name">User Name</string>
     <string name="user_email">User Email</string>
+    <string name="write_message_here">Write message here</string>
 
 </resources>
